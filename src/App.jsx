@@ -9,7 +9,7 @@ function App() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    inquiryType: 'Enterprise SaaS'
+    inquiryType: 'AI Solutions'
   });
 
   // Handlers
@@ -175,7 +175,7 @@ function App() {
                     disabled={formStatus === 'submitting'}
                   >
                     <option>AI Solutions</option>
-                    <option>Comsumer Insights</option>
+                    <option>Consumer Insights</option>
                     <option>Investor Relations</option>
                   </select>
                 </div>
