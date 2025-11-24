@@ -1,0 +1,20 @@
+/* 强制重置浏览器默认边距，确保全屏显示 */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* 关键：让 html, body 和 React 的挂载点 #root 占满屏幕 */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* 防止出现水平滚动条 */
+}
+
+/* 移除所有元素的默认边距，让我们可以完全控制布局 */
+* {
+  box-sizing: border-box;
+}
